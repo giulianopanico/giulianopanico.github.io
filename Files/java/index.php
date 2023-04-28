@@ -1,4 +1,4 @@
 <?php
-header('Location: http://theory.fi.infn.it/panico/en/');
+header('Location: https://giulianopanico.github.io/en/');
 exit;
 ?>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>About | Giuliano Panico’s webpage</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_en.html", function() {
+                          set_menu_active("menu_about");
+                          set_lang_link("about.html");
+                          });
+      });
+    </script>
+
+</head>
+-->
+
+<body>
+
+<div  id="header">
+
+    <!-- Header navbar en -->
+    
+    <div id="navbar">
+        <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+        
+        <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+        
+        <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+            <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> en </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+            <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+            <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+                <a id="lang_en" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;"href="../en/about.html">English</a>
+                <a id="lang_it" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/about.html">Italian</a>
+            </div>
+        </div>
+        
+        <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+            <ham-element></ham-element>
+            <ham-element></ham-element>
+            <ham-element></ham-element>
+            
+            <div class="dropdown-content" style="padding:0px; margin:0px;">
+                <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+                <a class="menu_about active" style="color:gray; margin:0px;" href="about.html">About me</a>
+                <a class="menu_research" style="color:gray; margin:0px;" href="research.html">Research</a>
+                <a class="menu_teaching" style="color:gray; margin:0px;" href="teaching.html">Teaching</a>
+                <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Outreach</a>
+                <a class="menu_contact" style="color:gray; margin:0px;" href="contact.html">Contact</a>
+            </div>
+        </div>
+        
+        <div id="navbar-right">
+            <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+            <a class="menu-elem display-only menu_about active" style="margin-left:0px" href="about.html"><span>About me</span></a>
+            <a class="menu-elem display-only menu_research" style="margin-left:0px" href="research.html"><span>Research</span></a>
+            <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+            <div class="dropdown2">
+                <a class="menu-elem dropbtn2 display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a>
+                <div class="dropdown-content2" style="">
+                    <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Mathematical Methods</a>
+                    <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Advanced Mathematical Methods</a>
+                    <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elements of Modern Physics</a>
+                    <a class="menu_Ph" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Physics</a>
+                    <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                    <a class="menu_QFTIII" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+                </div>
+            </div>
+            <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Outreach</span></a>
+            <a class="menu-elem display-only menu_contact" style="margin-left:0px" href="contact.html"><span>Contact</span></a>
+        </div>
+        
+    </div>
+
+</div>
+
+<div class="container1">
+    <img src="../Files/home_bkg.jpg" width=100% />
+    <div class="text-block1">
+        <div class="page-title-home" style="font-size:345%; font-weight:bold; text-align: right; font-variant: small-caps; margin-top:5px;">Giuliano Panico</div>
+        <div class="page-subtitle"style="font-size:125%; text-align: right;">Theoretical Particle Physics and Cosmology group</div>
+        <div class="page-subtitle"style="font-size:125%; text-align: right; margin-top: 5px;">University of Florence and INFN Florence</div>
+    </div>
+</div>
+
+<div style="margin-top:10px;padding:15px 15px 5px 15px;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <div class="w3-row">
+        <div class="w3-third" style="padding-right:10px;padding-left:20px;text-align:center;"> <img src="../Files/Panico.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></div>
+        <div class="w3-twothird" style="line-height:normal; padding-left:0px; margin-left:0px;">
+            <div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;text-align:center;"><b> Education </b></div>
+            <table style="font-size:112%;">
+                <tr>
+                    <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2003 - 2007 </b></td>
+                    <td> Ph.D. in Elementary Particle Physics<br/>
+                        International School for Advanced Studies (ISAS/SISSA), Trieste, Italy<br/>
+                        <!-- Thesis: “Gauge–Higgs Unification Theories on 5D Orbifolds”<br/>
+                        Advisor: Prof M. Serone       Defence date: 18 Sept 2007 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 1998 - 2003 </b></td>
+                    <td> Diploma di Licenza in Physics<br/>
+                        Scuola Normale Superiore (SNS), Pisa, Italy<br/>
+                        <!-- Final grade: 70/70 cum laude       Date: 19 Dec 2003 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2003 </b></td>
+                    <td> Master (Laurea Specialistica) in Physics<br/>
+                        Università degli Studi di Pisa, Italy<br/>
+                        <!-- Thesis: “Metastable states in QCD and parity violation” | Advisor: Prof A. Di Giacomo<br/>
+                        Final grade: 110/110 cum laude       Date: 30 May 2003 -->
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 1998 - 2003 </b></td>
+                    <td> Degree (Laurea Triennale) in Physics<br/>
+                        Università degli Studi di Pisa, Italy<br/>
+                        <!-- Thesis: “P and CP violation in QCD” | Advisor: Prof A. Di Giacomo<br/>
+                        Final grade: 110/110 cum laude       Date: 13 Jan 2003 -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;text-align:center;"><b> Academic appointments </b></div>
+<table style="font-size:112%;padding-left:15px;padding-right:15px;margin-left:auto;margin-right:auto;">
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2018 - present </b></td>
+        <td> University of Florence, Italy<br/>
+            <i> Researcher </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2014 - 2018 </b></td>
+        <td> IFAE, Universitat Autònoma de Barcelona, Spain<br/>
+            <i> Severo Ochoa postdoctoral fellowship </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2012 - 2014 </b></td>
+        <td> CERN, Geneva, Switzerland<br/>
+            <i> Fellowship, Theory Division </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2009 - 2012 </b></td>
+        <td> ETH Zürich, Switzerland<br/>
+            <i> Postdoc </i> &nbsp; &nbsp; <a style="font-size:15px"> (group of Prof. Charalampos Anastasiou) </a><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2007 - 2009 </b></td>
+        <td> Physikalisches Institut der Universität Bonn, Germany<br/>
+            <i> Postdoc </i> &nbsp; &nbsp; <a style="font-size:15px">  (group of Prof. Hans Peter Nilles) </a><br/>
+        </td>
+    </tr>
+</table>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;text-align:center;"><b> Association to other research institutes </b></div>
+<table style="font-size:112%;margin-left:auto;margin-right:auto;">
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> since 2014 </b></td>
+        <td> Visiting Scientist at CERN<br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> since 2019 </b></td>
+        <td> Associate to INFN Florence<br/>
+        </td>
+    </tr>
+</table>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;text-align:center;"><b> Habilitations </b></div>
+<table style="font-size:112%;margin-left:auto;margin-right:auto;">
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2020 </b></td>
+        <td> Italian habilitation for Full Professor &nbsp; &nbsp; <a style="font-size:15px">  (sector 02/A2) </a><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2017 </b></td>
+        <td> Italian habilitation for Associate Professor &nbsp; &nbsp; <a style="font-size:15px">  (sector 02/A2) </a><br/>
+        </td>
+    </tr>
+</table>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;text-align:center;"><b> Teaching activity </b></div>
+<table style="font-size:112%;margin-left:auto;margin-right:auto;">
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2021 </b></td>
+        <td> Mathematical Methods<br/>
+            <i> Laurea triennale in Physics, Florence University </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> since 2019 </b></td>
+        <td> Advanced Mathematical Methods for Physics<br/>
+            <i> Laurea magistrale in Physics, Florence University </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2019 - 2020 </b></td>
+        <td> Elements of Modern Physics<br/>
+            <i> Laurea magistrale in Mathematics, Florence University </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2018 </b></td>
+        <td> Physics<br/>
+            <i> Laurea triennale in Viticulture and Oenology, Florence University </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2017 - 2018 </b></td>
+        <td> Physics Beyond the Standard Model<br/>
+            <i> Master Studies Program, Universitat Autònoma de Barcelona </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2016 </b></td>
+        <td> Series of lectures: “Introduction to composite Higgs models”<br/>
+            <i> SFB Lectures series, DESY Hamburg </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2016 </b></td>
+        <td> Series of lectures: “Composite Higgs”<br/>
+            <i> ‘6th NExT PhD Workshop’, University of Sussex, UK </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2011 </b></td>
+        <td> Advanced Field Theory<br/>
+            <i> Physics Master program, ETH Zürich (main lecturer Dr. A. Wulzer) </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2010 </b></td>
+        <td> Quantum Field Theory III<br/>
+            <i> Physics Master and Doctoral and Post-Doctoral Studies programme, ETH Zürich </i><br/>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align:right; vertical-align:top;  padding-right:15px;"><b> 2010 </b></td>
+        <td> Quantum Field Theory II<br/>
+            <i> Physics Master program, Zürich University and ETH Zürich (main lecturer Prof. D. Wyler) </i><br/>
+        </td>
+    </tr>
+</table>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:10px;text-align:center;"><b> Student supervision</b></div>
+<div style="text-align:center;font-size:100%;padding-left:10px;padding-right:10px;">
+    <button class="collapsible" style="font-size:106%;max-width:650px;font-variant:small-caps;">Ph.D. Students <span class="open" style="float:right";><b>+</b></span><span class="closed" style="float:right";><b>−</b></span></button>
+    <div class="collapsible-content" style="max-width:650px;margin-left:auto;margin-right:auto;">
+        <ul style="list-style-type:circle;text-align:justify;padding-top:0px;margin-top:0px;padding-left:20px;">
+            <li> <a style="font-variant:small-caps;"> Andrea Guiggiani </a> (University of Florence, 2020 - ) (co-supervisor: Dr S. De Curtis)</li>
+            <li> <a style="font-variant:small-caps;"> Marc Riembau </a> (IFAE Barcelona, 2014 - 2018) “Exploration of the Higgs sector after its discovery” (co-supervisor: Prof C. Grojean)</li>
+        </ul>
+    </div>
+<button class="collapsible" style="font-size:106%;max-width:650px;font-variant:small-caps;">Master Theses <span class="open" style="float:right";><b>+</b></span><span class="closed" style="float:right";><b>−</b></span></button>
+<div class="collapsible-content" style="max-width:650px;margin-left:auto;margin-right:auto;">
+    <ul style="list-style-type:circle;text-align:justify;padding-top:0px;margin-top:0px;padding-left:20px;">
+        <li> <a style="font-variant:small-caps;"> Andrea Guiggiani </a> (University of Florence, 2020) “CP-violation and baryogenesis from a non-minimal composite Higgs model” (co-supervisor: Dr. S. De Curtis)</li>
+        <li> <a style="font-variant:small-caps;"> Amit Pritish Bhoonah </a> (ETH Zürich, 2018) “Using Angular Information to Improve the Bounds on the W and Y Parameters of Electroweak Precision” (co-supervisors: Dr. E. Furlan and Prof. C. Anastasiou)</li>
+    <li> <a style="font-variant:small-caps;"> Tevong You </a> (ETH Zürich, 2011) “Singlet Production via Gluon Fusion in the SO(6)/SO(4) Composite Higgs Model” (co-supervisors: Dr. A. Wulzer and Prof. C. Anastasiou)</li>
+    </ul>
+</div>
+<button class="collapsible" style="font-size:106%;max-width:650px;font-variant:small-caps;">Other activities <span class="open" style="float:right";><b>+</b></span><span class="closed" style="float:right";><b>−</b></span></button>
+<div class="collapsible-content" style="max-width:650px;margin-left:auto;margin-right:auto;">
+    <ul style="list-style-type:circle;text-align:justify;padding-top:0px;margin-top:0px;padding-left:20px;">
+        <li> Discussion Leader at the “Eighth joint CERN-Fermilab Hadron Collider Physics Summer School” held at CERN (28/8 - 6/9 2013)</li>
+        <li> Tutoring of three students during the proseminars on “Non-Abelian Gauge Theory” organized at ETH Zürich by Prof. N. Beisert (Spring 2012): “Grand Unification” (N. Wentzlaff), “Supersymmetric Yang-Mills Theory” (L. Drescher) and “Anomalies” (B. Meyer).</li>
+        <li> Organization of proseminars on “Supersymmetry” at ETH Zürich (Spring 2010) and tutoring of two students during the preparation of their proseminars on the topics: “Supersymmetric Lagrangians” (J. Cancino) and “Supersymmetric Lagrangians with gauge symmetry” (C. Focke)
+            </li>
+    </ul></div>
+</div>
+
+<br style="clear:both;"/>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:0px;text-align:center;"><b> Scientific responsibilities</b></div>
+<ul style="display:table;font-size:106%;list-style-type:circle;max-width:700px;text-align:justify;padding:0px;padding-left:25px;padding-right:15px;margin-left:auto;margin-right:auto;">
+    <li> Convener of the Working Group 2 (Higgs properties) of the LHC Higgs
+    Working Group (LHC HWG) from Oct 2019 (<a class="link" style="text-decoration:underline; color:black;" href="https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG" target="_blank">https://twiki.cern.ch/twiki/bin/view/LHCPhysics/LHCHXSWG</a>) </li>
+    <li> Editor for the “Effective Field Theory” section of the “Higgs boson pair production at colliders: status and perspectives” report (B. Di Micco et al., arXiv:1910.00012 [hep-ph]) </li>
+    <li> Editor for the “Higgs and EW symmetry breaking studies” chapter of the “Physics at a 100 TeV pp collider” report (R. Contino et al., CERN Yellow Report (2017) no. 3, 255 [arXiv:1606.09408 [hep-ph]]) </li>
+    <li> <button class="collapsible" style="font-size:106%;max-width:700px;margin-left:0px;padding:7px 20px 7px 0px;">Organization of conferences, workshops and schools <span class="open" style="float:right";><b>+</b></span><span class="closed" style="float:right";><b>−</b></span></button>
+        <div class="collapsible-content" style="max-width:700px;">
+            <ul style="font-size:100%;list-style:none;text-align:left;margin-left:0;padding-left:1em;padding-top:5px;padding-bottom:5px;text-indent:-1em;">
+                <li> − Organizer of the workshop “Machine Learning at GGI”, 22 August - 30 September 2022, GGI Florence </li>
+                <li> − Organizer of the PhD school “GGI Lectures on the Theory of Fundamental Interactions”, 10-28 January 2022, GGI Florence </li>
+                <li> − Convener of the “Higgs” parallel session at LHCP 2021 conference, 7-12 June 2021, Paris, France </li>
+                <li> − Organizer of the PhD school “GGI Lectures on the Theory of Fundamental Interactions”, 11-29 January 2021, GGI Florence </li>
+                <li> − Organizer of the PhD school “GGI Lectures on the Theory of Fundamental Interactions”, 7-24 January 2020, GGI Florence </li>
+                <li> − Convener of the “Alternatives to Supersymmetry” parallel session at the SUSY18 conference, 23-27 July 2018, Barcelona, Spain </li>
+                <li> − Convener of the “Higgs and New Physics” parallel session at EPS HEP 2017 conference, 5-12 July 2017, Venice, Italy </li>
+                <li> − Organizer of the workshop “The top-charm frontier at the LHC”, 14-17 January 2014, CERN Geneva </li>
+                <li> − Organizer of the workshop “The Zurich Phenomenology Workshop: Higgs search confronts theory”, 9-11 January 2012, ETH Zürich
+                </li>
+            </ul></div>
+        </div>
+    </li>
+    <li> Referee for several international journals, including Physical Review Letters, JHEP, Physical Review D,
+        Nuclear Physics B, Physics Letters B, EPJ, JCAP </li>
+    <li> Responsible for the Theory Seminar program at IFAE from 2016 to 2018 </li>
+    <li> Responsible for the Theory Seminar program at Florence University since 2019 </li>
+</ul>
+
+<br style="clear:both;"/>
+
+<p style="text-align:center;font-size:125%;">
+You can download my <a class="link" style="text-decoration:underline; color:black;" href="https://drive.google.com/file/d/1wNDABXfHwLThZY5pEttAvznypAl5SOtm">CV</a> in pdf format.
+</p>
+
+<br style="clear:both;"/>
+
+<p style="width=100%;background-color:rgb(245,245,245);height:70px;margin:0px;margin-top:20px; padding-top:40px;padding-left:20px;text-align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+</body>
+
+</html>

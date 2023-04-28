@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="Files/css/w3.css"> -->
+<meta charset="UTF-8">
+<title>Contatto | Webpage di Giuliano Panico</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_it.html", function() {
+                          set_menu_active("menu_contact");
+                          set_lang_link("contact.html");
+                          });
+      });
+    </script>
+ -->
+
+</head>
+<body>
+<div style="position: relative;min-height: 100vh;">
+
+<div id="navbar">
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+    
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+    
+    <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+        <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> it </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+        <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+        <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+            <a id="lang_en" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../en/contact.html">English</a>
+            <a id="lang_it" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/contact.html">Italian</a>
+        </div>
+    </div>
+    
+    <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        
+        <div class="dropdown-content" style="padding:0px; margin:0px;">
+            <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+            <a class="menu_about" style="color:gray; margin:0px;" href="about.html">CV</a>
+            <a class="menu_research" style="color:gray; margin:0px;" href="research.html">Ricerca</a>
+            <a class="menu_teaching" style="color:gray; margin:0px;" href="teaching.html">Didattica</a>
+            <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Divulgazione</a>
+            <a class="menu_contact active" style="color:gray; margin:0px;" href="contact.html">Contatto</a>
+        </div>
+    </div>
+    
+    <div id="navbar-right">
+        <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+        <a class="menu-elem display-only menu_about" style="margin-left:0px" href="about.html"><span>CV</span></a>
+        <a class="menu-elem display-only menu_research" style="margin-left:0px" href="research.html"><span>Ricerca</span></a>
+        <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+        <div class="dropdown2">
+            <a class="menu-elem dropbtn2 display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Didattica</span></a>
+            <div class="dropdown-content2" style="">
+                <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Metodi matematici</a>
+                <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Complementi di metodi matematici</a>
+                <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elementi di fisica moderna</a>
+                <a class="menu_Ph" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Fisica</a>
+                <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                <a class="menu_QFTIII" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+            </div>
+        </div>
+        <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Divulgazione</span></a>
+        <a class="menu-elem display-only menu_contact active" style="margin-left:0px" href="contact.html"><span>Contatto</span></a>
+    </div>
+    
+</div>
+
+<div class="top-padding" style="padding-top:100px;"> </div>
+
+<div class="w3-row">
+    <div class="w3-half" style="text-align:right; padding-right:20px; padding-left:20px; margin-bottom:20px;"> <img src="../Files/photo_2.png" alt="Picture" style="width:250px;max-width:100%" /></div>
+    
+    <div class="w3-half" style="line-height:normal; padding-left:20px;"> <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;">Giuliano Panico<br /></div><div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:10px;padding-bottom:70px; font-weight:lighter;">Ricercatore<br /><br />Dipartimento di Fisica e Astronomia<br />Università di Firenze<br />via G. Sansone, 1<br />50019 Sesto Fiorentino (FI), Italia<br /><br/>Ufficio 296<br />(+39) 055 457 2303<br /><a style="color:gray; font-weight:normal;">giuliano.panico (at) unifi.it</a><br /><br />
+    <a href="https://www.unifi.it/p-doc2-2020-0-A-2d2a362e372d-1.html" style="color:gray; font-weight:normal;" target="_blank">Pagina web Unifi</a><br />
+    </div> </div>
+</div>
+
+<footer>
+    <br style="clear:both;"/>
+    <p style="position:absolute;bottom:0;width=100%;height:70px;margin:0px;margin-bottom:10px; padding-top:50px;padding-left:20px;align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

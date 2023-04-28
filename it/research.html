@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Ricerca | Webpage di Giuliano Panico</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_it.html", function() {
+                          set_menu_active("menu_research");
+                          set_lang_link("research.html");
+                          });
+      });
+</script>
+ -->
+
+</head>
+
+<body>
+
+<div id="navbar">
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+    
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+    
+    <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+        <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> it </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+        <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+        <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+            <a id="lang_en" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../en/research.html">English</a>
+            <a id="lang_it" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/research.html">Italian</a>
+        </div>
+    </div>
+    
+    <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        
+        <div class="dropdown-content" style="padding:0px; margin:0px;">
+            <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+            <a class="menu_about active" style="color:gray; margin:0px;" href="about.html">CV</a>
+            <a class="menu_research active" style="color:gray; margin:0px;" href="research.html">Ricerca</a>
+            <a class="menu_teaching" style="color:gray; margin:0px;" href="teaching.html">Didattica</a>
+            <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Divulgazione</a>
+            <a class="menu_contact" style="color:gray; margin:0px;" href="contact.html">Contatto</a>
+        </div>
+    </div>
+    
+    <div id="navbar-right">
+        <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+        <a class="menu-elem display-only menu_about" style="margin-left:0px" href="about.html"><span>CV</span></a>
+        <a class="menu-elem display-only menu_research active" style="margin-left:0px" href="research.html"><span>Ricerca</span></a>
+        <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+        <div class="dropdown2">
+            <a class="menu-elem dropbtn2 display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Didattica</span></a>
+            <div class="dropdown-content2" style="">
+                <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Metodi matematici</a>
+                <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Complementi di metodi matematici</a>
+                <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elementi di fisica moderna</a>
+                <a class="menu_Ph" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Fisica</a>
+                <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                <a class="menu_QFTIII" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+            </div>
+        </div>
+        <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Divulgazione</span></a>
+        <a class="menu-elem display-only menu_contact" style="margin-left:0px" href="contact.html"><span>Contatto</span></a>
+    </div>
+    
+</div>
+
+<div class="container1">
+    <img src="../Files/home_bkg.jpg" width=100% />
+    <div class="text-block1">
+        <div class="page-title" style="font-size:345%; font-weight:bold; text-align: right; font-variant: small-caps; margin:-5px; margin-top:5px; margin-bottom:-10px;">Ricerca</div>
+    </div>
+</div>
+
+<div style="font-size:156%;font-variant:small-caps;margin-top:20px;padding-bottom:0px;text-align:center;"><b> Interessi di Ricerca </b></div>
+<div style="font-size:112%; padding-left:20px; padding-right:20px; margin-bottom:30px; text-align:justify;max-width:900px;margin-left:auto;margin-right:auto;">
+<p>La maggior parte della mia attività di ricerca è dedicata allo studio del bosone di Higgs, della dinamica elettrodebole e di flavor nel Modello Standard e nelle sue estensioni. I miei interessi vanno dall'analisi teorica di teorie di nuova fisica ad argomenti più fenomenologici collegati agli esperimenti a collisori ed alla cosmologia.</p>
+<p>Sono autore di diversi articoli sullo studio di teorie oltre il Modello Standard, con particolare focus su scenari basati su nuova dinamica fortemente accoppiata (modelli di Higgs composto). Uno dei miei risultati principali in questo contesto è l'identificazione di una forte correlazione tra la massa dell'Higgs, la presenza di partner del top leggeri e il livello di tuning necessario per ottenere uno scenario realistico di rottura della simmetria elettrodebole [1,2]. Questi risultati hanno conseguenze importanti dal punto di vista sperimentale, in quanto identificano i partner del top come canale privilegiato per testare un'ampia classe di modelli con Higgs composto mediante experimenti a collisori. Un altro risultato rilevante da me ottenuto è lo sviluppo del formalismo di teoria di campo effettiva per parametrizzare la fenomenologia dei partner del top [3]. Questo formalismo è attualmente utilizzato dalle collaborazioni ATLAS e CMS per riportare le misure di LHC su produzione singola di nuovi vector-like quark.</p>
+<p>Oltre agli argomenti già menzionati, ho anche una rilevante produzione scientifica rivolta allo studio del Modello Standard e allo svipullo di test di nuova fisica indipendenti da modelli espliciti. In questo contesto, due miei risultati più rilevanti sono l'analisi dei self-coupling del bosone di Higgs a collisori attuali e futuri [4], e l'identificazione di strategie per migliorare la determinazione delle osservabili elettrodeboli all'LHC mediante lo studio della produzione Drell-Yan di una coppia di leptoni [5] e dei processi di produzione di una coppia di bosoni. Attualmente sono anche coinvolto in una linea di ricerca incentrata sull'uso di applicazioni di intelligenza artificiale per l'analisi dei dati sperimentali a collisori di particelle.</p>
+
+<p style="margin-top:30px;font-size:80%">
+    [1] O. Matsedonskyi, G. Panico and A. Wulzer, “Light Top Partners for a Light Composite Higgs”, JHEP 1301 (2013) 164 [arXiv:1204.6333 [hep-ph]].<br/>
+    [2] G. Panico, M. Redi, A. Tesi and A. Wulzer, “On the Tuning and the Mass of the Composite Higgs”, JHEP 1303 (2013) 051 [arXiv:1210.7114 [hep-ph]].<br/>
+    [3] O. Matsedonskyi, G. Panico and A. Wulzer, “On the Interpretation of Top Partners Searches”, JHEP 1412 (2014) 097 [arXiv:1409.0100 [hep-ph]].<br/>
+    [4] A. Azatov, R. Contino, G. Panico and M. Son, “Effective field theory analysis of double Higgs boson production via gluon fusion”, Phys. Rev. D 92 (2015) no.3, 035001 [arXiv:1502.00539 [hep-ph]].<br/>
+    [5] M. Farina, G. Panico, D. Pappadopulo, J. T. Ruderman, R. Torre and A. Wulzer, “Energy helps accuracy: electroweak precision tests at hadron colliders”, Phys. Lett. B 772 (2017) 210 [arXiv:1609.08157 [hep-ph]].<br/>
+    [6] R. Franceschini, G. Panico, A. Pomarol, F. Riva and A. Wulzer, “Electroweak Precision Tests in High-Energy Diboson Processes”, JHEP 1802 (2018) 111 [arXiv:1712.01310 [hep-ph]].
+
+</p>
+</div>
+
+<div class="centerdiv" style="padding-left:20px;padding-right:20px;margin-bottom:0px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+
+<div style="margin-top:10px;padding:15px 20px 0px 0px;">
+    <div class="w3-row" style="max-width:880px;margin-left:auto;margin-right:auto;">
+        <div class="w3-third" style="float:right; text-align:center; padding-right:0px; padding-left:20px; padding-bottom:10px;"> <img src="../Files/Standard-model.png" alt="Picture" style="width:250px;max-width:100%; padding:10px; border:0.5px solid black; border-radius:5px;" /></div>
+        
+        <div class="w3-twothirds" style="line-height:normal; padding-left:20px; margin-bottom:0px;"> <div class="paragraph" style="text-align:center; color:black; link-color:gray; font-size:130%; padding-top:5px; font-weight:bold; padding-left:0px;"> Il bosone di Higgs, il Modello Standard e Oltre</div>
+            
+            <div class="paragraph" style="text-align:justify; color:gray; link-color:gray; font-size:112%; padding-top:0px; padding-left:0px;">
+                <p>La scoperta del bosone di Higgs al collisore LHC al CERN nel 2012 [1] ci ha fornito l'ultimo mattone dell'edificio del Modello Standard. Ora abbiamo una teoria matematicamente consistente, le cui predizioni coprono un enorme insieme di situazioni sperimentali con buonissima precisione.</p>
+                
+                <p>Tuttavia, non siamo ancora giunti alla fine della nostra esplorazione delmondo delle particelle elementari. Molte domande fondamentali rimangono ancora senza risposta nel Modello Standard, e forniscono una prova evidente della presenza di nuovi fenomeni ancora da scoprire e comprendere.</p>
+                
+                <p>Molte questioni aperte sono connesse alla cosmologia. Un esempio è la materia oscura: un misterioso costituente dell'universo, che è cinque volte più abbondante della materia ordinaria. Sebbene negli anni si siano accumulati molti segnali indiretti della sua presenza, non sappiamo ancora molto della vera natura della materia oscura e della sua relazione con le particelle note del Modello Standard.</p>
+            </div>
+        </div>
+        
+        <div class="w3-third" style="float:left; text-align:center; padding-right:20px; padding-left:20px; padding-bottom:10px;"> <p style="color:black;margin:5px 0px 0px 0px; padding:0px; font-variant:small-caps; font-size:85%">distribuzione dell'energia dell'universo</p> <img src="../Files/universe_piechart_it.png" alt="Picture" style="width:250px;max-width:100%; padding:0px; border:0px solid black; border-radius:5px;" /></div>
+        
+        <div class="w3-twothirds" style="line-height:normal; padding-left:20px; margin-bottom:0px;">
+            
+            <div class="paragraph" style="text-align:justify; color:gray; link-color:gray; font-size:112%; padding-top:0px; padding-left:0px;">
+                
+                <p>Una domanda ancora più profonda è legata alla descrizione fondamentale della gravità. La gravità è stata la prima forza ad essere scoperta, ma ancora oggi siamo limitati ad una sua formulazione all'interno di una teoria puramente classica. Questa descrizione è necessariamente incorretta ad energie sufficientemente alte, alle quali gli effetti quantistici diventano importanti. A queste energie si verificano nuovi fenomeni esotici, sui quali sappiamo poco o nulla.</p>
+                
+                <p>Esiste anche un altro problema legato alla gravità. L'universo è pieno di una componente sconosciuta di energia, detta energia oscura. Questa energia causa un'espansione esponenziale dell'universo stesso. L'energia oscura costituisce il 73% dell'energia totale dell'universo e la sua origine è ancora completamente misteriosa.</p>
+                
+                <p>Anche se limitiamo la nostra attenzione alle particelle conosciute del Modello Standard, diverse domande rimangono senza risposta. Per esempio, è accertato sperimentalmente che i neutrini hanno una massa piccolissima ma non esattamente nulla. Nel Modello Standard, però, essi sono descritti come particelle prive di massa. La soluzione di questo problema probabilmente richiederà una rivisitazione completa della natura dei neutrini, accompagnata da una serie di esperimenti necessari per identificare la corretta teoria che descrive queste particelle.</p>
+                
+                <p>Un altro aspetto strano del Modello Standard è collegato ai costituenti della materia, ovvero i quark e gli elettroni. Gli esperimenti ci dicono che queste particelle sono accompagnate da due "copie" che hanno esattamente le stesse proprietà con l'eccezione di una massa maggiore. Questa struttura a "tre famiglie" (o "tre generazioni") è una peculiarità del Modello Standard che genera una ricca serie di profonde conseguenze fenomenologiche. Tuttavia la sua origine è ben lontana dall'essere compresa.</p>
+                
+                <p>Concludiamo questa panoramica tornando al bosone di Higgs, che è stato il punto di partenza della nostra discussione. Il bosone di Higgs costituisce un unicum all'interno delle particelle del Modello Standard. È l'unica particella elementare attualmente nota che abbia spin zero. Questa proprietà lo rende mediatore di un nuovo tipo di forza, completamente diversa dalle altre forze note in natura (cioè dalle forze elettrodebole, forte e gravitazionale). Il bosone di Higgs è anche la sola particella elementare che può interagire con se stessa (con interazioni trilineari e quadrilineari), sebbene lo faccia così debolmente che queste interazioni non sono ancora state testate sperimentalmente.</p>
+                
+                <p>La proprietà più notevole del bosone di Higgs, tuttavia, è il fatto che esso è legato ad un campo che permea tutto lo spazio e genera le masse di tutte le altre particelle elementari. Questo meccanismo, detto "meccanismo di Higgs", è uno dei pilastri del Modello Standard ed è essenziale per garantire la consistenza di tutta la teoria. La proposta teorica del meccanismo di Higgs risale al 1964 [2], quasi 50 anni prima della scoperta sperimentale del bosone di Higgs. Per questa ragione esso può essere considerato uno dei più spettacolari trionfi della fisica teorica.</p>
+                
+                <p>Ciononostante, il bosone di higgs è ancora, per molti aspetti, un oggetto strano. Una sua caratteristica peculiare è il fatto che, sebbene sia responsabile per la generazione delle masse di tutte le altre particelle elementari, esso non generi la sua stessa massa. Dal punto di vista del Modello Standard, la massa dell'Higgs è un parametro libero, il cui valore non ha una spiegazione. Forti argomenti teorici (solitamente noti come "problema della gerarchia" o "problema della naturalezza") hanno portanto i fisici a pensare che il valore della massa dell'Higgs dovrà essere spiegato all'interno di qualche estensione del Modello Standard. Per questa ragione il bosone di Higgs potrebbe essere la nostra porta d'accesso privilegiata a fenomeni di nuova fisica.</p>
+                
+                <p style="margin-top:30px;font-size:80%;">
+                [1] G. Aad <i>et al.</i> [ATLAS Collaboration],
+                “Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC”,
+                Phys. Lett. B <b>716</b> (2012) 1
+                [arXiv:1207.7214 [hep-ex]]. S. Chatrchyan <i>et al.</i> [CMS Collaboration],
+                “Observation of a New Boson at a Mass of 125 GeV with the CMS Experiment at the LHC”,
+                Phys. Lett. B <b>716</b> (2012) 30
+                [arXiv:1207.7235 [hep-ex]]. <br/>
+                [2] F. Englert and R. Brout,
+                “Broken Symmetry and the Mass of Gauge Vector Mesons”,
+                Phys. Rev. Lett. <b>13</b> (1964) 321.
+                P. W. Higgs,
+                “Broken Symmetries and the Masses of Gauge Bosons”,
+                Phys. Rev. Lett. <b>13</b> (1964) 508.
+                G. S. Guralnik, C. R. Hagen and T. W. B. Kibble,
+                “Global Conservation Laws and Massless Particles”,
+                Phys. Rev. Lett. <b>13</b> (1964) 585.
+                <br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+
+<div class="centerdiv" style="padding-left:20px;padding-right:20px;margin-bottom:0px;margin-top:0px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+
+<div style="margin-top:10px;padding:15px 20px 0px 0px;">
+    <div class="w3-row" style="max-width:880px;margin-left:auto;margin-right:auto;">
+        <div class="w3-third" style="float:right; text-align:center; padding-right:0px; padding-left:20px; padding-bottom:10px;"> <img src="../Files/Leonardo_vite_aerea.jpg" alt="Picture" style="width:250px;max-width:100%; padding:5px; border:0.5px solid black; border-radius:5px;" /></div>
+        
+        <div class="w3-twothirds" style="line-height:normal; padding-left:20px; margin-bottom:0px;"> <div class="paragraph" style="text-align:center; color:black; link-color:gray; font-size:130%; padding-top:5px; font-weight:bold; padding-left:0px;">Nuovi modelli della natura</div>
+            
+            <div class="paragraph" style="text-align:justify; color:gray; link-color:gray; font-size:112%; padding-top:0px; padding-left:0px;">
+                <p>La nostra capacità di comprendere e descrivere i fenomeni naturali è in ultima istanza basata sulla costruzione di modelli matematici. Il linguaggio matematico ci permette di comprendere la natura sia al livello qualitativo sia, cosa ancora più importante, al livello quantitativo.</p>
+                
+                <p>I modelli fondamentali della natura hanno due importanti caratteristiche: sono "economici" e "predittivi". Il termine "economici" si riferisce al fatto che teorie fisiche di successo forniscono una descrizione concisa della natura, nel senso che sono in grado di spiegare molti fenomeni apparentemente diversi in un quadro unificato. Per fare un esempio possiamo pensare alla teoria della gravitazione di Newton. Con una sola legge fisica, Newton fu in grado di spiegare il moto dei pianeti intorno al sole, il moto della luna attorno alla terra e la caduta dei gravi sulla terra. Un insieme ristretto di principi è sufficiente per spiegare tutto ciò che vediamo attorno a noi, e questa è la chiave per ottenere una comprensione profonda della natura.</p>
+            </div>
+        </div>
+        
+        <div class="w3-third" style="float:left; text-align:center; padding-right:20px; padding-left:20px; padding-bottom:10px;"> <p style="color:black;margin:0px 0px 5px 0px; padding:0px; font-variant:small-caps; font-size:85%">la lagrangiana del Modello Standard</p> <img src="../Files/SM_Lagrangian_2.jpg" alt="Picture" style="width:225px;max-width:100%; padding:0px; border:0px solid black; border-radius:5px;" /></div>
+        
+        <div class="w3-twothirds" style="line-height:normal; padding-left:20px; margin-bottom:0px;">
+            
+            <div class="paragraph" style="text-align:justify; color:gray; link-color:gray; font-size:112%; padding-top:0px; padding-left:0px;">
+                
+                <p>La seconda carettaristica fondamentale delle teorie fisiche è la loro capacità di essere "predittive". Questo significa che esse sono capaci di predire il risultato degli esperimenti e, in molti casi, di predire nuovi fenomeni che non sono ancora stati osservati. il linguaggio matematico permette ai fisici di ricavare dettagliate predizioni quantitative che possono essere confrontate in maniera oggettiva con i dati sperimentali in modo da poter essere confermate o falsificate.</p>
+                
+                <p>Uno dei successi più spettacolari della fisica delle particelle è la costruzione del Modello Standard. Questa teoria descrive, con stupefacente accuratezza, quasi tutti i fenomeni che abbiamo osservato negli esperimenti di ficica delle particelle. Inoltre essa è così concisa che la sua lagrangiana completa può essere stampata su una maglietta (vegi foto). La lagrangiana del Modello Standard descrive le proprietà e il comportamento di tutte le particelle elementari che abbiamo scoperto sino ad oggi.</p>
+                
+                <p>Come abbiamo già discusso, malgrado il suo successo, il Modello Standard non può essere considerato la teoria ultima della natura. Alcuni suoi punti deboli ci dicono che dobbiamo cercare una teoria più fondamentale, che estenda il Modello Standard incorporandone le caratteristiche di successo. Sfortunatamente non sappiamo che tipo di teoria prenderà il posto del modello Standard, e l'unico modo per scoprirlo è esplorare direzioni differenti confrontandole con i dati sperimentali.</p>
+                
+                <p>La costruzione di nuove teorie oltre il Modello Standard costituisce l'approccio privilegiato per esplorare la nuova fisica in maniera sistematica. I nuovi modelli possono incorporare nuovi principi che offrono delle soluzioni per i punti deboli del Modello Standard. Inoltre essi individuano segnali plausibili di nuova fisica fornendo una guida per le ricerche sperimentali.</p>
+                
+                <p>Nell'arco del secolo scorso è emerso un quadro molto convincente della fisica fondamentale, nel quale il comportamento delle particelle elementari è dettato da principi di simmetria [1]. Il Modello Standard è basato su un ampio insieme di simmetrie esatte ed approssimate, che costituiscono la chiave per il suo sucesso fenomenologico. La costruzione di nuove teorie spesso poggia sull'introduzione di nuovi principi di simmetria, che possono essere sfruttati per risolvere alcuni dei misteri del Modello Standard.</p>
+                
+                <p>Negliultimi decenni, una direzione di ricerca particolarmente fruttuosa è stata lo studio di nuove teorie connesse col bosone di Higgs e col problema della naturalezza. In questo ambito, il concetto di supersimmetria -- una nuova simmetria dello spazio-tempo che estende la simmetria di Lorentz della relatività speciale [2] -- ha trovato una delle sua applicazioni naturali. Un altra idea che è emersa è legata ad una reinterpretazione del bosone di Higgs come un oggetto composto [3] formato da un insieme di costituenti più fondamentali. Questo fenomeno sarebbe analogo a ciò che succede per gli adroni (per esempio i protoni, i neutroni e i pioni) che sono formati di quark e gluoni.</p>
+                
+                <p>Altre interessanti direzioni di ricerca nella costruzione di modelli sono legate al problema della materia oscura. È interessante menzionare che molti modelli pensati per risolvere il problema della naturalezza, come la supersimmetria o i modelli di Higgs composto, prevedono nuove particelle che possono costtuire la materia oscura. Un'altra possibilità è quella di legare la materia oscura alla cromodinamica quantistica (QCD), cioè alla teoria che descrive gli adroni e i loro costituenti (quark e gluoni). Un problema aparto della QCD (noto con il nome di "problema della violazione di CP forte") potrebbe essere risolto dalla presenza di una nuova particella ultra-leggera, l'assione [4], che potrebbe anche costituire la materia oscura.
+                
+                <p style="margin-top:30px;font-size:80%;">
+                [1] Un'introduzione pedagogica al concetto di simmetrie in fisica può essere trovata su <a class="link"  href="https://en.wikipedia.org/wiki/Symmetry_(physics)" style="color:gray" target="_blank">Wikipedia</a>.<br/>
+                [2] Un'introduzione pedagogica alla supersimmetria può essere trovata su <a class="link"  href="https://en.wikipedia.org/wiki/Supersymmetry" style="color:gray" target="_blank">Wikipedia</a>.<br/>
+                [3] Un'introduzione pedagogica ai modelli di Higgs composto può essere trovata su <a class="link"  href="https://en.wikipedia.org/wiki/Composite_Higgs_models" style="color:gray" target="_blank">Wikipedia</a>.<br/>
+                [4] Un'introduzione pedagogica all'assione in QCD può essere trovata su <a class="link"  href="https://en.wikipedia.org/wiki/Axion" style="color:gray" target="_blank">Wikipedia</a>.<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:20px;padding-right:20px;margin-bottom:0px;margin-top:0px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+
+<div style="margin-top:10px;padding:15px 20px 0px 0px;">
+    <div class="w3-row" style="max-width:880px;margin-left:auto;margin-right:auto;">
+        <div class="w3-third" style="text-align:center; padding-right:20px; padding-left:20px; padding-bottom:10px;"> <img src="../Files/ML.jpg" alt="Picture" style="width:250px;max-width:100%; padding:10px; border:0.5px solid black; border-radius:5px;" /></div>
+        
+        <div class="w3-twothirds" style="line-height:normal; padding-left:20px; margin-bottom:0px;"> <div class="paragraph" style="text-align:center; color:black; link-color:gray; font-size:130%; padding-top:5px; font-weight:bold; padding-left:0px;">Intelligenza artificiale per la fisica delle particelle</div>
+            
+            <div class="paragraph" style="text-align:justify; color:gray; link-color:gray; font-size:112%; padding-top:0px; padding-left:0px;">
+                <p>I collisori di particelle, come l'LHC al CERN, costituiscono una opportunità unica per ottenere una comprensione più profonda del Modello Standard e per cercare segnali di nuova fisica. Un aspetto complicato di questi esperimenti è dato dalla enorme quantità di dati che devono essere analizzati. Per poter essere sfruttati in modo ottimale, questi dati richiedono lo sviluppo di strategie di ricerca molto avanzate.</p>
+                
+                <p>Segnali interessanti e osservabili rilevanti per la ricerca di nuova fisica sono spesso difficili da identificare poiché sono nascosti da un'enorme quantità di processi di background. Le tradizionali procedure di analisi richedono tipicamente di essere studiate caso per caso, con il rischio concreto di essere lontane dalla sensitività ottimale. Inoltre segnali inattesi o "strani" potrebbero passare inosservati se la strategia di analisi non è abbastanza flessibile.</p>
+                
+                <p>Nuovi approcci basati sull'intelligenza artificiale hanno la potenzialità di risolvere tutti questi problemi, fornendo strumenti ottimali per estrarre informazione dai dati sperimentali. Molte applicazioni di intelligenza artificiale sono attualmente oggetto di sviluppo, grazie agli sforzi coordinati di diversi gruppi di ricerca in tutto il mondo.</p>
+                
+                <p>Una direzione di ricerca in rapida crescita è quella focalizzata all'ottimizzazione delle ricerche per segnali di nuova fisica. L'obiettivo principale di questi sforzi è lo sviluppo di reti neurali artificiali che siano in grado di modellizzare con alta precisione i segnali attesi di nuova fisica, permettendo così una interpretazione globale e completa dei dati da cllisori di particelle. Per alcuni lavori in questa direzione si vedano ad esempio [1,2].</p>
+                
+                <p style="margin-top:30px;font-size:80%;">
+                [1] J. Brehmer, K. Cranmer, G. Louppe and J. Pavez, "Constraining Effective Field Theories with Machine Learning", Phys. Rev. Lett. <b>121</b> (2018) no.11,  111801 [arXiv:1805.00013 [hep-ph]];
+                Phys. Rev. D <b>98</b> (2018) no.5,  052004 [arXiv:1805.00020 [hep-ph]].<br/>
+                [2] S. Chen, A. Glioti, G. Panico and A. Wulzer, "Parametrized classifiers for optimal EFT sensitivity", JHEP <b>05</b> (2021) 247 [arXiv:2007.10356 [hep-ph]].<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:20px;padding-right:20px;margin-bottom:0px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:0px;text-align:center;"><b> Pubblicazioni </b></div>
+<div style="font-size:112%; padding-left:20px; padding-right:20px; margin-bottom:30px; text-align:justify;max-width:900px;margin-left:auto;margin-right:auto;">
+    <p style="text-align:justify;"> Sono autore di 37 lavori di ricerca pubblicati su riviste internazionali con peer review e di 8 proceeding relativi a seminari presentati a conferenze internazionali. Ho scritto una monografia pubblicata nella serie Lecture Notes in Physics da Springer, che ha ricevuto 390+ citazioni. Ho anche contribuito a 10 report scientifici.</p>
+    <p style="text-align:left;">La lista completa delle mie pubblicazioni può essere reperita su <a class="link" href="https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=author%3AG.Panico.1%20AND%20collection%3Aciteable&ui-citation-summary=true" style="color:black;" target="_blank">InspireHep</a>.</p>
+<!--
+    <p style="margin-bottom:-10px;"><b> Bibliometria</b></p>
+    <p style="text-align:justify;"> Numero totale di citazioni: 5200+ (tutti gli articoli), 3900+ (articoli pubblicati) <br/>
+        Numero medio di citazioni per anno: 600+/anno negli ultimi 5 anni (tutti gli articoli)<br/>
+        Numero medio di citazioni per articolo: 95.2 (tutti gli articoli), 94.9 (articoli pubblicati)<br/>
+        h-index: 35 (tutti gli articoli), 32 (articoli pubblicati)<br/>
+        <span style="font-size:85%;">(dati dal database InspireHep, aggiornato ott 2021)</span></p>
+ -->
+    <p style="margin-bottom:-10px;"><b> Pubblicazioni selezionate</b></p>
+    <ul style="list-style-type:circle;text-align:justify;padding-left:30px;">
+            <li style="margin-bottom:15px;"> <b>Parametrized classifiers for optimal EFT sensitivity</b><br/>
+                S. Chen, A. Glioti, G. Panico and A. Wulzer<br/>
+                JHEP <b>2105</b> (2021) 247<br/>
+                [<a class="link" href="http://inspirehep.net/record/1699600?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:2007.10356 [hep-ph]<a>]<br/> </li>
+        
+            <li style="margin-bottom:15px;"> <b>EFT approach to the electron Electric Dipole Moment at the two-loop level</b><br/>
+                G. Panico, A. Pomarol and M. Riembau<br/>
+                JHEP <b>1904</b> (2019) 090<br/>
+                [<a class="link" href="http://inspirehep.net/record/1699600?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1810.09413 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>Electroweak Precision Tests in High-Energy Diboson Processes</b><br/>
+                R. Franceschini, G. Panico, A. Pomarol, F. Riva and A. Wulzer<br/>
+                JHEP <b>1802</b> (2018) 111<br/>
+                [<a class="link" href="http://inspirehep.net/record/1641091?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1712.01310 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>A global view on the Higgs self-coupling</b><br/>
+                S. Di Vita, C. Grojean, G. Panico, M. Riembau and T. Vantalon<br/>
+                JHEP <b>1709</b> (2017) 069<br/>
+                [<a class="link" href="http://inspirehep.net/record/1590031?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1704.01953 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>Energy helps accuracy: electroweak precision tests at hadron colliders</b><br/>
+                M. Farina, G. Panico, D. Pappadopulo, J. T. Ruderman, R. Torre and A. Wulzer<br/>
+                Phys. Lett. B <b>772</b> (2017) 210<br/>
+                [<a class="link" href="http://inspirehep.net/record/1488288?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1609.08157 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>Cosmological Higgs-Axion Interplay for a Naturally Small Electroweak Scale</b><br/>
+                J. R. Espinosa, C. Grojean, G. Panico, A. Pomarol, O. Pujolàs and G. Servant<br/>
+                Phys. Rev. Lett.  <b>115</b> (2015) no.25,  251803<br/>
+                [<a class="link" href="http://inspirehep.net/record/1380474?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1506.09217 [hep-ph]<a>]<br/>
+                    This paper has been selected as <span style="font-variant:small-caps;">Editors’ Suggestion</span> in PRL.<br/></li>
+
+            <li style="margin-bottom:15px;"> <b>Effective field theory analysis of double Higgs boson production via gluon fusion</b><br/>
+                A. Azatov, R. Contino, G. Panico and M. Son<br/>
+                Phys. Rev. D <b>92</b> (2015) no.3, 035001<br/>
+                [<a class="link" href="http://inspirehep.net/record/1342472?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1502.00539 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>On the Interpretation of Top Partners Searches</b><br/>
+                O. Matsedonskyi, G. Panico and A. Wulzer<br/>
+                JHEP <b>1412</b> (2014) 097<br/>
+                [<a class="link" href="http://inspirehep.net/record/1313142?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1409.0100 [hep-ph]<a>]<br/> </li>
+            
+            <li style="margin-bottom:15px;"> <b>Light top partners and precision physics</b><br/>
+                C. Grojean, O. Matsedonskyi and G. Panico<br/>
+                JHEP <b>1310</b> (2013) 160<br/>
+                [<a class="link" href="http://inspirehep.net/record/1239176?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1306.4655 [hep-ph]<a>]<br/> </li>
+            
+            <li style="margin-bottom:15px;"> <b>On the Tuning and the Mass of the Composite Higgs</b><br/>
+                G. Panico, M. Redi, A. Tesi and A. Wulzer<br/>
+                JHEP <b>1303</b> (2013) 051<br/>
+                [<a class="link" href="http://inspirehep.net/record/1193785?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1210.7114 [hep-ph]<a>]<br/> </li>
+            
+            <li style="margin-bottom:15px;"> <b>Light Top Partners for a Light Composite Higgs</b><br/>
+                O. Matsedonskyi, G. Panico and A. Wulzer<br/>
+                JHEP <b>1301</b> (2013) 164<br/>
+                [<a class="link" href="http://inspirehep.net/record/1112825?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1204.6333 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;"> <b>The Discrete Composite Higgs Model</b><br/>
+                G. Panico and A. Wulzer<br/>
+                JHEP <b>1109</b> (2011) 135<br/>
+                [<a class="link" href="http://inspirehep.net/record/913588?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1106.2719 [hep-ph]<a>]<br/> </li>
+
+            <li style="margin-bottom:15px;margin-top:40px;"> <b>The Composite Nambu-Goldstone Higgs</b><br/>
+                G. Panico and A. Wulzer<br/>
+                Lect. Notes Phys.  <b>913</b> (2016) pp. 1-216<br/>
+                [<a class="link" href="http://inspirehep.net/record/1374915?ln=en" style="text-decoration:none;color:black;" target="_blank">arXiv:1506.01961 [hep-ph]</a>]<br/>
+                Webpage: <a class="link" href="http://www.springer.com/en/book/9783319226163" style="color:black;" target="_blank">www.springer.com</a>
+            </li>
+        </ul>
+</div>
+<p style="text-align:justify;">
+
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:20px;padding-right:20px;margin-bottom:0px;margin-top:-10px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:156%;font-variant:small-caps;margin-top:10px;padding-bottom:0px;text-align:center;"><b> Seminari </b></div>
+<div style="font-size:112%; padding-left:20px; padding-right:20px; margin-bottom:30px; text-align:justify;max-width:900px;margin-left:auto;margin-right:auto;">
+    <p style="text-align:justify;"> Ho tenuto 50+ seminari a conferenze internazionali e sono stato invitato a tenere 30+ seminari ad università ed istituti di ricerca.</p>
+   <p style="margin-bottom:-10px;"><b> Selezione di seminari</b></p>
+   <ul style="list-style-type:circle;text-align:justify;padding-left:30px;">
+       <li style="margin-bottom:15px;">“Beyond Standard Model Theory”, invited plenary talk, ‘EPS-HEP 2019’ conference, 10-17 Jul 2019, Ghent, Belgium. (<a class="link" href="https://indico.cern.ch/event/577856/contributions/3396815/attachments/1880777/3098746/Panico_BSM-Theory.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“BSM Prospects in Higgs Physics at the LHC”, invited plenary talk, ‘30th Rencontres de Blois: Particle Physics and Cosmology’ conference, 3-8 Jun 2018, Blois, France. (<a class="link" href="https://indico.cern.ch/event/677667/contributions/2828627/attachments/1661202/2661523/Panico_Blois_2018.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Naturalness: Flavor and Top quarks”, invited plenary talk, ‘Top 2017’ workshop, 17-22 Sept 2017, Braga, Portugal. (<a class="link" href="https://indico.cern.ch/event/659310/contributions/2690156/attachments/1526807/2387611/Panico_Top-and-Flavor.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“A Natural origin for the LHCb anomalies”, invited plenary talk, ‘Electroweak Interactions and Unified Theories’ session at the ‘Rencontres de Moriond 2017’, 18-25 Mar 2017, La Thuile, Italy. (<a class="link" href="https://indico.in2p3.fr/event/13763/contributions/15188/attachments/12681/15569/Panico_LHCb_anomalies.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“EW precision tests at hadron colliders”, invited plenary talk, ‘ZPW 2017: The second run of the LHC’, 9-11 Jan 2017, ETH Zürich, Switzerland. (<a class="link" href="https://indico.cern.ch/event/587148/contributions/2409109/attachments/1393682/2123873/Panico_EWPT_at_LHC.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Double Higgs production at the LHC and Beyond”, invited plenary talk,‘Higgs Hunting 2016’ workshop, 31 Aug - 2 Sept 2016, LPNHE, Paris, France. (<a class="link" href="https://indico.lal.in2p3.fr/event/3116/contributions/7514/attachments/7005/8252/Panico_Double_Higgs.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“EFT for a Composite Goldstone Higgs”, invited plenary talk, ‘HEFT 2015’ workshop, Chicago, 4-6 Nov 2015. (<a class="link" href="https://indico.fnal.gov/event/10131/session/10/contribution/14/material/slides/0.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Collider phenomenology of Composite Higgs models”, invited plenary talk, ‘The Zurich Phenomenology Workshop 2015’, 7-9 Jan 2015, Zürich University, Switzerland. (<a class="link" href="https://indico.cern.ch/event/351464/contributions/1753674/attachments/694875/954180/Panico_ZPW_2015.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Elusive compositeness”, invited plenary talk, ‘Naturalness 2014’ Workshop, 14-17 Nov 2014, Weizmann Institute, Israel. (<a class="link" href="https://indico.cern.ch/event/290373/contributions/1646474/attachments/542558/747959/Panico_Elusive_compositeness.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Higgs couplings (theory)”, invited plenary talk, ‘BSM Higgs Workshop @ LPC’, 3-5 Nov 2014, Fermilab, USA. (<a class="link" href="https://indico.fnal.gov/event/8672/session/0/contribution/2/material/slides/0.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Composite Higgs searches”, invited plenary talk, ‘Next steps in the Energy Frontier - Hadron Colliders’ workshop, 25-28 Aug 2014, Fermilab, USA. (<a class="link" href="https://indico.fnal.gov/event/7864/session/2/contribution/52/material/slides/0.pdf" style="color:black;">slides</a>)</li>
+       <li style="margin-bottom:15px;">“Theory summary talk”, invited plenary talk, ‘The flavor of Higgs’ workshop, 23-26 Jun 2014, Weizmann Institute, Israel. (<a class="link" href="https://indico.cern.ch/event/288835/contributions/659262/attachments/538923/742925/Talk_Weizmann.pdf" style="color:black;">slides</a>)</li>
+   </ul>
+</div>
+<p style="text-align:justify;">
+
+<br style="clear:both;"/>
+
+<p style="width=100%;background-color:rgb(245,245,245);height:70px;margin:0px;margin-top:20px; padding-top:40px;padding-left:20px;text-align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+
+</body>
+</html>

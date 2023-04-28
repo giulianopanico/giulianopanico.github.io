@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Didattica | Webpage di Giuliano Panico</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_it.html", function() {
+                          set_menu_active("");
+                          set_lang_link("teaching_qftiii.html");
+                          });
+      });
+</script>
+ -->
+
+</head>
+
+<body>
+
+<div id="navbar">
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+    
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+    
+    <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+        <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> it </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+        <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+        <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+            <a id="lang_en" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../en/teaching_qftiii.html">English</a>
+            <a id="lang_it" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/teaching_qftiii.html">Italian</a>
+        </div>
+    </div>
+    
+    <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        
+        <div class="dropdown-content" style="padding:0px; margin:0px;">
+            <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+            <a class="menu_about active" style="color:gray; margin:0px;" href="about.html">CV</a>
+            <a class="menu_research" style="color:gray; margin:0px;" href="research.html">Ricerca</a>
+            <a class="menu_teaching" style="color:gray; margin:0px;" href="teaching.html">Didattica</a>
+            <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Divulgazione</a>
+            <a class="menu_contact" style="color:gray; margin:0px;" href="contact.html">Contatto</a>
+        </div>
+    </div>
+    
+    <div id="navbar-right">
+        <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+        <a class="menu-elem display-only menu_about" style="margin-left:0px" href="about.html"><span>CV</span></a>
+        <a class="menu-elem display-only menu_research" style="margin-left:0px" href="research.html"><span>Ricerca</span></a>
+        <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+        <div class="dropdown2">
+            <a class="menu-elem dropbtn2 display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Didattica</span></a>
+            <div class="dropdown-content2" style="">
+                <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Metodi matematici</a>
+                <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Complementi di metodi matematici</a>
+                <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elementi di fisica moderna</a>
+                <a class="menu_Ph" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Fisica</a>
+                <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                <a class="menu_QFTIII active" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+            </div>
+        </div>
+        <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Divulgazione</span></a>
+        <a class="menu-elem display-only menu_contact" style="margin-left:0px" href="contact.html"><span>Contatto</span></a>
+    </div>
+    
+</div>
+
+<div class="container1">
+    <img src="../Files/teaching_bkg.jpg" width=100% />
+    <div class="text-block1">
+        <div class="page-title" style="font-size:345%; font-weight:bold; text-align: right; font-variant: small-caps; margin:-5px; margin-top:5px; margin-bottom:-10px;">Didattica</div>
+    </div>
+</div>
+
+<div style="text-align:center; font-size:230%; font-weight:bold; margin-top:20px; margin-bottom:5px;"> Quantum Field Theory III </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+
+
+<div style="margin-top:10px;padding:15px 50px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="text-align:center; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+            Physics Master and Docrtoral and Post-Doctoral Studies programme<br/>
+            ETH Zürich<br/><br/>
+            <a class="link" href="http://edu.itp.phys.ethz.ch/hs10/qft3/" style="text-decoration:underline; color:gray;" target="_blank"> Winter 2010 </a>
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <img src="../Files/SUSY-diagram-PF.png" alt="Picture" style="max-width:100%;width:260px;padding:5px; border:0.5px solid black; border-radius:5px;" /></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;"> Contenuto del corso </p>
+    <p> Il corso contiene una dettagliata introduzione alla supersimmetria in teorie di campo quantistiche. Le lezioni coprono gli aspetti teorici principali della materia, ed inclusono inoltre degli argomenti legati alla fenomenologia, tra i quali una discussione della versione supersimmetrica del Modello Standard. Il corso comprende 14 lezioni ognuna contenente 2 ore di lezione ed 1 ora di esercitazioni.</p>
+    </div>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:10px;">Libri di testo consigliati</p>
+    <b>Libri</b><br/>
+    <ul style="list-style-type:circle;">
+        <li>J. Wess and J. Bagger, “Supersymmetry and supergravity”, Princeton, USA, University Press (1992) 259 p.</li>
+        <li>P. C. West, “Introduction to supersymmetry and supergravity”, Singapore, World Scientific (1990) 425 p.</li>
+        <li>S. Weinberg, “The quantum theory of fields. Vol. 3: Supersymmetry”, Cambridge University Press (2000) 419 p.</li>
+    </ul>
+    <b>Review</b><br/>
+    <ul style="list-style-type:circle;">
+        <li>M. F. Sohnius, “Introducing Supersymmetry”, Phys. Rept. 128 (1985) 39</li>
+        <li>J. D. Lykken, “Introduction to supersymmetry”, hep-th/9612114</li>
+        <li>S. P. Martin, “A Supersymmetry primer”, Adv. Ser. Direct. High Energy Phys. 21 (2010) 1 [Adv. Ser. Direct. High Energy Phys. 18 (1998) 1] [hep-ph/9709356]</li>
+        <li>A. Bilal, “Introduction to supersymmetry”, hep-th/0101055</li>
+        <li>M. Drees, “An Introduction to supersymmetry”, hep-ph/9611409</li>
+        <li>J. M. Figueroa-O’Farrill, “Busstepp lectures on supersymmetry”, hep-th/0109172</li>
+        <li>P. Van Nieuwenhuizen, “Supergravity”, Phys. Rept. 68 (1981) 189</li>
+        <li>H. P. Nilles, “Supersymmetry, Supergravity and Particle Physics”, Phys. Rept. 110 (1984) 1</li>
+        <li>H. K. Dreiner, H. E. Haber and S. P. Martin, “Two-component spinor techniques and Feynman rules for quantum field theory and supersymmetry”, Phys. Rept. 494 (2010) 1 [arXiv:0812.1594 [hep-ph]]</li>
+    </ul>
+</div>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:10px;">Dispense </p>
+    Al seguente <a class="link" href="../Files/resources/Panico_SUSY_Course.pdf" style="color:black;">link</a> si possono trovare
+    le dispense che ho preparato per il corso (in inglese). Esse coprono tutti gli argomenti
+    presentati a lezione ed includono una collezione di esercizi.
+</div>
+
+
+<p style="width=100%;background-color:rgb(245,245,245);height:70px;margin:0px;margin-top:20px; padding-top:40px;padding-left:20px;text-align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+</body>
+</html>

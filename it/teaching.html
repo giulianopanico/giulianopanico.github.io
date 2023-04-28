@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Didattica | Webpage di Giuliano Panico</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_it.html", function() {
+                          set_menu_active("menu_teaching");
+                          set_lang_link("teaching.html");
+                          });
+      });
+    </script>
+ -->
+ 
+</head>
+
+<body>
+
+<div id="navbar">
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+    
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+    
+    <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+        <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> it </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+        <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+        <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+            <a id="lang_en" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../en/teaching.html">English</a>
+            <a id="lang_it" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/teaching.html">Italian</a>
+        </div>
+    </div>
+    
+    <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        
+        <div class="dropdown-content" style="padding:0px; margin:0px;">
+            <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+            <a class="menu_about active" style="color:gray; margin:0px;" href="about.html">CV</a>
+            <a class="menu_research" style="color:gray; margin:0px;" href="research.html">Ricerca</a>
+            <a class="menu_teaching active" style="color:gray; margin:0px;" href="teaching.html">Didattica</a>
+            <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Divulgazione</a>
+            <a class="menu_contact" style="color:gray; margin:0px;" href="contact.html">Contatto</a>
+        </div>
+    </div>
+    
+    <div id="navbar-right">
+        <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+        <a class="menu-elem display-only menu_about" style="margin-left:0px" href="about.html"><span>CV</span></a>
+        <a class="menu-elem display-only menu_research" style="margin-left:0px" href="research.html"><span>Ricerca</span></a>
+        <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+        <div class="dropdown2">
+            <a class="menu-elem dropbtn2 display-only menu_teaching active" style="margin-left:0px" href="teaching.html"><span>Didattica</span></a>
+            <div class="dropdown-content2" style="">
+                <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Metodi matematici</a>
+                <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Complementi di metodi matematici</a>
+                <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elementi di fisica moderna</a>
+                <a class="menu_Ph" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Fisica</a>
+                <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                <a class="menu_QFTIII" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+            </div>
+        </div>
+        <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Divulgazione</span></a>
+        <a class="menu-elem display-only menu_contact" style="margin-left:0px" href="contact.html"><span>Contatto</span></a>
+    </div>
+    
+</div>
+
+<div class="container1">
+    <img src="../Files/teaching_bkg.jpg" width=100% />
+    <div class="text-block1">
+        <div class="page-title" style="font-size:345%; font-weight:bold; text-align: right; font-variant: small-caps; margin:-5px; margin-top:5px; margin-bottom:-10px;">Didattica</div>
+    </div>
+</div>
+
+<div style="text-align:center; font-size:230%; font-weight:bold; margin-top:20px; margin-bottom:5px;"> Corsi Universitari </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"><a class="link" href="teaching_mm1.html" style="text-decoration: none; color:black;"> Metodi Matematici</a> <br/> <span style="font-size:90%; font-weight:normal;"> (B006529)</span><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Laurea triennale in Fisica e Astrofisica (B030)<br/>
+                <a class="link" href="https://www.scienze.unifi.it/" style="text-decoration: none; color:gray;" target="_blank">Scuola di Scienze Matematiche, Fisiche e Naturali</a><br/> Università di Firenze<br/>
+                a.a. 2021/2022
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="teaching_mm1.html"> <img src="../Files/MM1.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"><a class="link" href="teaching_cmm.html" style="text-decoration: none; color:black;"> Complementi di Metodi Matematici per la Fisica</a> <br/> <span style="font-size:90%; font-weight:normal;"> (B030014, secondo modulo)</span><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Laurea magistrale in Scienze Fisiche e Astrofisiche (B058)<br/>
+                <a class="link" href="https://www.scienze.unifi.it/" style="text-decoration: none; color:gray;" target="_blank">Scuola di Scienze Matematiche, Fisiche e Naturali</a><br/> Università di Firenze<br/>
+                a.a. 2019/2020; a.a. 2020/2021; a.a. 2021/2022
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="teaching_cmm.html"> <img src="../Files/AMM-3.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"><a class="link" href="teaching_emp.html" style="text-decoration: none; color:black;"> Elementi di Fisica Moderna</a> <br/> <span style="font-size:90%; font-weight:normal;"> (B020976, modulo di relatività speciale)</span><br /></div>
+        <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+            Laurea magistrale in Matematica (B077)<br/>
+            <a class="link" href="https://www.scienze.unifi.it/" style="text-decoration: none; color:gray;"  target="_blank">Scuola di Scienze Matematiche, Fisiche e Naturali</a><br/> Università di Firenze<br/>
+            a.a. 2019/2020; a.a. 2020/2021
+        </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="teaching_emp.html"> <img src="../Files/special_relativity_2.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"> <a class="link" href="teaching_ph_eno.html" style="text-decoration: none; color:black;"> Fisica</a> <br/> <span style="font-size:90%; font-weight:normal;"> (B002385, modulo di fisica dei fluidi, termodinamica ed elettromegnetismo)</span><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Laurea triennale in Viticoltura ed Enologia (B022)<br/>
+                <a class="link" href="https://www.agraria.unifi.it/" style="text-decoration: none; color:gray;" target="_blank">Scuola di Agraria </a> <br/> Università di Firenze <br/>
+                a.a. 2018/2019
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="teaching_ph_eno.html"> <img src="../Files/General_Ph.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"> <a style="text-decoration: none; color:black;" target="_blank"> Beyond the Standard Model </a><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Master in Physics<br/>
+                IFAE, Universitat Autònoma de Barcelona <br/>
+                Spring 2017 &amp; Spring 2018
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <img src="../Files/BSM_2.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px; margin-bottom:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"> <a class="link" href="teaching_qftiii.html" style="text-decoration: none; color:black;"> Quantum Field Theory III </a><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Physics Master and Docrtoral and Post-Doctoral Studies programme<br/>
+                ETH Zürich<br/>
+                Winter 2010
+                </div>
+                </div>
+                <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="teaching_qftiii.html"> <img src="../Files/SUSY-diagram-PF.png" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+        </div>
+    </div>
+    
+    <br style="clear:both;"/>
+    <hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+    
+
+<div style="text-align:center; font-size:230%; font-weight:bold; margin-top:40px; margin-bottom:5px;"> Didattica per Dottorato </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"> <a class="link" href="https://www.springer.com/gp/book/9783319226163" style="text-decoration: none; color:black;" target="_blank"> The composite Nambu-Goldstone Higgs </a><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Giuliano Panico, Andrea Wulzer<br/>
+                Lecture Notes in Physics 913 (2016)<br/>
+                Springer International Publishing<br/>
+                
+                <p style="font-size:85%;"> The Hierarchy Problem is arguably the most important guiding principle concerning the extension to high-energy scales of the Standard Model (SM) of Fundamental Interactions. Every scenario for addressing this issue unavoidably predicts new physics in the TeV energy range, which is currently being probed directly by the LHC experimental program. Among the possible solutions to the Hierarchy Problem, the scenario of a composite Higgs boson is a very simple idea and a rather plausible picture has emerged over the years by combining the following ingredients. First, the Higgs must be a (pseudo-) Nambu-Goldstone boson, rather than a generic hadron of the new strong sector. Second, through the so-called ‘partial compositeness’, SM particles mix with strong sector resonances with suitable quantum numbers, so that they become a linear combination of elementary and composite degrees of freedom. Recently, general descriptions of the Composite Higgs Scenario were developed which successfully capture the relevant features of this theoretical framework in a largely model-independent way. The present book provides an extensive and illustrative introduction to the subject for a broad audience of graduate students and non-specialist researchers in the fields of particle, nuclear and gravitational physics.
+                    The material is presented in a pedagogical fashion, with great emphasis on the conceptual
+                    and technical foundations of the construction. A comprehensive summary of the flavor,
+                    collider and electroweak precision phenomenology is also included.</p>
+                    
+                    <p style="font-size:85%;"> arXiv version: <a class="link" href="https://arxiv.org/abs/1506.01961" style="color:gray;" target="_blank">1506.01961 [hep-ph]</a></p>
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:center; padding-right:20px; padding-left:20px;"> <a class="link" style="margin:0px; padding:0px" href="https://www.springer.com/gp/book/9783319226163" target="_blank"> <img src="../Files/PW_Composite_NGH.png" alt="Picture" style="max-width:100%;width:175px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+
+<div style="margin-top:10px;padding:15px 20px 20px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="line-height:normal; padding-left:20px;"> <div class="paragraph" style="text-align:left; color:Black; link-color:gray; font-size:150%; padding-top:0px; font-weight:bold;"> <a class="link" href="http://www.ggi.infn.it/ggilectures/" style="text-decoration: none; color:black;" target="_blank"> GGI Lectures on the Theory of Fundamental Interactions </a><br /></div>
+            <div class="paragraph" style="text-align:left; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                <a class="link" href="https://www.ggi.infn.it/" style="text-decoration: none; color:gray;" target="_blank">Galileo Galilei Institute for Theoretical Physics</a><br/>
+                Firenze<br/>
+                <p style="font-size:85%;"> The lectures are primarily addressed to Ph.D. students in High Energy Particle and Astroparticle Physics. The aim of the school is to give a pedagogical introduction to the basic concepts and tools needed for research, covering the foundations of the subject at a deep and advanced level. The main topics include the Standard Model
+                    of Particle Physics and its extensions, Collider Physics, Quantum Field Theories and
+                    Cosmology.</p>
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px; margin-bottom:20px;"> <a class="link" style="margin:0px; padding:0px" href="http://www.ggi.infn.it/ggilectures/" target="_blank"> <img src="../Files/GGI_School.jpg" alt="Picture" style="max-width:100%;width:250px;padding:5px; border:0.5px solid black; border-radius:5px;" /></a></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:0px;padding-right:0px;margin-bottom:-10px;margin-top:0px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:700px;">
+</div>
+
+<div style="font-size:18px; margin-top:0px;padding:0px 20px 0px 20px; max-width:900px;margin-left:auto;margin-right:auto;">
+    <p style="text-align:center; font-weight:bold; font-size:130%; margin-bottom:20px;">Editions</p>
+</div>
+<div style="text-align:center;max-width:900px;margin-left:auto;margin-right:auto;">
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2014</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2015/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2015</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2016/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2016</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2017/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2017</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2018/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2018</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2019/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2019</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2020/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2020</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2021/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2021</a></button>
+    <button class="buttonlink1"> <a class="link" href="http://www.ggi.infn.it/ggilectures/ggilectures2022/" style="text-decoration: none; color:white;background-color:gray;padding:8px 10px 8px 10px;" target="_blank"> School 2022</a></button>
+
+</div>
+
+<br style="clear:both;"/>
+
+<!--
+<div style="text-align:center; font-size:40px; font-weight:bold; margin-top:40px; margin-bottom:5px;"> Other Teaching Activities </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+-->
+
+<hr style="margin-top:20px; margin-bottom:20px;" width="50%">
+<div style="text-align:center; font-size:40px; font-weight:bold; margin-top:40px; margin-bottom:5px;"> Disponibilità di Tesi </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+
+<div style="font-size:112%; padding-left:20px; padding-right:20px; margin-bottom:30px; text-align:justify;max-width:900px;margin-left:auto;margin-right:auto;">
+    <p><b style="font-size:120%">Tesi Magistrali</b></p>
+    <p style="margin-top:-5px">Per gli argomenti possibili si veda la descrizione dei miei <a class="link" href="research.html" style="text-decoration:underline; color:black;" target="_blank">interessi di ricerca</a>, tra i quali</p>
+    <ul style="list-style-type:circle;text-align:justify;padding-left:30px;margin-top:-10px;color:black;">
+        <li>Applicazioni di Machine Learning in fisica delle particelle</li>
+        <li>Fisica oltre il Modello Standard</li>
+        <li>Transizioni di fase nell'universo primordiale</li>
+    </ul>
+    </p>
+</div>
+
+
+<div style="font-size:112%; padding-left:20px; padding-right:20px; margin-bottom:50px; margin-top:40px; text-align:justify;max-width:900px;margin-left:auto;margin-right:auto;">
+<p><b style="font-size:120%">Tesi Triennali</b></p>
+<p style="margin-top:-5px">Gli studenti interessati mi possono contattare direttamente per concordare un argomento.</p>
+<p style="margin-top:-5px;color:black;">Possibili argomenti includono
+<ul style="list-style-type:circle;text-align:justify;padding-left:30px;margin-top:-10px;color:black;">
+       <li>Simmetrie in meccanica quantistica</li>
+       <li>Applicazioni di Machine Learning in meccanica quantistica</li>
+       <li>Principi variazionali in meccanica analitica</li>
+       <li>Dinamica quantistica di particelle in una camera a bolle</li>
+   </ul>
+</p>
+</div>
+    
+<p style="width=100%;background-color:rgb(245,245,245);height:70px;margin:0px;margin-top:20px; padding-top:40px;padding-left:20px;text-align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+</body>
+</html>

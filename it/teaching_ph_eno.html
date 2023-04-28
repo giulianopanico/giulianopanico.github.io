@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Didattica | Webpage di Giuliano Panico</title>
+<link rel="stylesheet" type="text/css" href="../Files/css/mystyle.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<script src="../Files/java/JQuery.js"></script>
+<script src="../Files/java/myscript.js"> </script>
+
+
+<!-- Load Header and set corresponding item to active -->
+<!--<script>
+    $(function(){
+      $( "#header" ).load( "header_it.html", function() {
+                          set_menu_active("");
+                          set_lang_link("teaching_ph_eno.html");
+                          });
+      });
+</script>
+ -->
+
+</head>
+
+<body>
+
+<div id="navbar">
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fisica.unifi.it/" target="_blank"> <img class="phone-shrink" id="unifilogo" style="padding-left:10px; margin-bottom:-2px;" src="../Files/unifi_nuovo_salomone_3_inv.png" height="46" id="logo" /> </a>
+    
+    <a class="phone-shrink" style="margin:0px; padding:0px" href="https://www.fi.infn.it/index.php/it/" target="_blank"> <img class="phone-shrink" id="infnlogo" style="padding-left:20px; margin-bottom:-2px;" src="../Files/LogoPiccolo_3_inv.png" height="46" id="logo" /> </a>
+    
+    <div class="lang-dropdown" style="font-size:16px; color:white; margin-left:20px; margin-top:15px; right:none;">
+        <a class="lang-name" style="font-size:16px; margin:0px; padding:0px;"> it </a> <a class="lang-arrow" style="margin:0px; padding:0px; padding-left:4px; padding-top:0px; font-size:13px;"> ▾ </a>
+        <!--<i class="fa fa-caret-down" style="color:white; font-size:12px;"></i>-->
+        <div class="lang-dropdown-content" style="padding:0px; margin:0px;">
+            <a id="lang_en" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../en/teaching_ph_eno.html">English</a>
+            <a id="lang_it" class="active" style="font-size:14px; color:gray; margin:0px; padding:5px; text-align:center;" href="../it/teaching_ph_eno.html">Italian</a>
+        </div>
+    </div>
+    
+    <div class="dropdown phone-only" style="margin:0px; margin-right:10px; padding:0px; float:right;">
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        <ham-element></ham-element>
+        
+        <div class="dropdown-content" style="padding:0px; margin:0px;">
+            <a class="menu_home" style="color:gray; margin:0px;" href="index.html">Home</a>
+            <a class="menu_about active" style="color:gray; margin:0px;" href="about.html">CV</a>
+            <a class="menu_research" style="color:gray; margin:0px;" href="research.html">Ricerca</a>
+            <a class="menu_teaching" style="color:gray; margin:0px;" href="teaching.html">Didattica</a>
+            <a class="menu_outreach" style="color:gray; margin:0px;" href="outreach.html">Divulgazione</a>
+            <a class="menu_contact" style="color:gray; margin:0px;" href="contact.html">Contatto</a>
+        </div>
+    </div>
+    
+    <div id="navbar-right">
+        <a class="menu-elem display-only menu_home" href="index.html"><span>Home</span></a>
+        <a class="menu-elem display-only menu_about" style="margin-left:0px" href="about.html"><span>CV</span></a>
+        <a class="menu-elem display-only menu_research" style="margin-left:0px" href="research.html"><span>Ricerca</span></a>
+        <!--    <a class="menu-elem display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Teaching</span></a> -->
+        <div class="dropdown2">
+            <a class="menu-elem dropbtn2 display-only menu_teaching" style="margin-left:0px" href="teaching.html"><span>Didattica</span></a>
+            <div class="dropdown-content2" style="">
+                <a class="menu_MM1" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_mm1.html">Metodi matematici</a>
+                <a class="menu_AMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_cmm.html">Complementi di metodi matematici</a>
+                <a class="menu_EMM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_emp.html">Elementi di fisica moderna</a>
+                <a class="menu_Ph active" style="color:gray; margin:0px; padding:3px; font-size:14px;" href="teaching_ph_eno.html">Fisica</a>
+                <!-- <a class="menu_BSM" style="color:gray; margin:0px; padding:3px; font-size:14px;" href=".html">Beyond the Standard Model</a> -->
+                <a class="menu_QFTIII" style="color:gray; margin:0px; padding:3px; font-size:13px;" href="teaching_qftiii.html">QFT III</a>
+            </div>
+        </div>
+        <a class="menu-elem display-only menu_outreach" style="margin-left:0px" href="outreach.html"><span>Divulgazione</span></a>
+        <a class="menu-elem display-only menu_contact" style="margin-left:0px" href="contact.html"><span>Contatto</span></a>
+    </div>
+    
+</div>
+
+<div class="container1">
+    <img src="../Files/teaching_bkg.jpg" width=100% />
+    <div class="text-block1">
+        <div class="page-title" style="font-size:345%; font-weight:bold; text-align: right; font-variant: small-caps; margin:-5px; margin-top:5px; margin-bottom:-10px;">Didattica</div>
+    </div>
+</div>
+
+<div style="text-align:center; font-size:40px; font-weight:bold; margin-top:20px; margin-bottom:5px;"> Fisica </div>
+<hr style="margin-top:0px; margin-bottom:40px;" width="15%">
+
+
+<div style="margin-top:10px;padding:15px 50px 20px;">
+    <div class="w3-row" style="max-width:900px;margin-left:auto;margin-right:auto;">
+        <div class="w3-twothird" style="text-align:center; color:gray; link-color:gray; font-size:130%; padding-top:5px; font-weight:lighter;">
+                Corso B002385<br/>
+                Laurea triennale in Viticoltura ed Enologia (B022)<br/>
+            <a class="link" href="https://www.scienze.unifi.it/" style="text-decoration: none; color:gray;" target="_blank">Scuola di Agraria</a><br/> Università di Firenze<br/><br/>
+            a.a. <a class="link" href="https://www.unifi.it/index.php?module=ofform2&mode=1&cmd=3&AA=2018&afId=499725" style="text-decoration:underline; color:gray;" target="_blank"> 2018/2019 </a>
+            </div>
+        </div>
+        <div class="w3-third" style="text-align:left; padding-right:20px; padding-left:20px;"> <img src="../Files/General_Ph.jpg" alt="Picture" style="max-width:100%;width:260px;padding:5px; border:0.5px solid black; border-radius:5px;" /></div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:18px; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;"> Contenuto del corso </p>
+    <p> Introduzione ai concetti di base della fisica generale. Lista degli argomenti: meccanica, statica e dinamica dei fluidi, termodinamica, elettromagnetismo.</p>
+</div>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;">Programma del corso </p>
+    <p>Metodo scientifica; Unità di misura; Stima di ordini di grandezza.</p>
+    <p>Moto uniforme e principio d'inerzia; Principi della dinamica; Stabilità ed equilibrio; Momento di una forza; Attrito; Energia cinetica, potenziale ed energia meccanica totale; Lavoro e potenza.</p>
+    <p>Peso, densità e peso specifico.</p>
+    <p>Movimento di un fluido; Riscaldamento e raffreddamento di una sostanza: calore specifico, calore latente; Diagramma di fase e capacità termica; Equazioni del gas perfetto; Trasformazioni termodinamiche (condetti di base); Macchine termiche; Efficienza.</p>
+    <p>Carica elettrica e forza elettrostatica; Circuiti: voltaggio, corrente, resistenza, energia e potenza di una corrente elettrica.</p>
+</div>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; margin-bottom:30px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;">Libri di testo consigliati</p>
+    <ul style="list-style-type:circle;">
+        <li>R. A. Serway and J. W. Jewett, <i> Principi di Fisica </i>, Edises, 5ª edizione 2015.</li>
+    </ul>
+</div>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; padding-bottom:0px; margin-bottom:10px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;"> Dispense delle lezioni </p>
+    <p>Questa sezioni contiene le dispense che ho preparato per le lezioni. Esse sono pensate come guida per la preparazione dell'esame, pertanto esse possono affiancare, ma non sostituire, l'uso del libro di testo. Le dispense contengono alsuni argomenti ed esercizi che non sono stati coperti integralmente a lezione.</p>
+    <div class="w3-row" style="max-width:600px;margin-left:auto;margin-right:auto;margin-top:0px;padding:0px;">
+        <div class="w3-half" style="text-align:left; color:gray; link-color:gray; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; font-weight:lighter;">
+            <ul style="list-style-type:disc; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:6px;">
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/1_Fluidi.pdf" style="text-decoration:none;color:gray;"> Fluidi 1 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/1-2_Fluidi.pdf" style="text-decoration:none;color:gray;"> Fluidi 2 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-1_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 1 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-2_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 2 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-3_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 3 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-4_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 4 </a></li>
+            </ul>
+        </div>
+        <div class="w3-half" style="text-align:left; color:gray; link-color:gray;padding-top:0px; margin-top:0px; font-weight:lighter;">
+            <ul style="list-style-type:disc; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px;">
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-5_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 5 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/2-6_Termodinamica.pdf" style="text-decoration:none;color:gray;"> Termodinamica 6 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/3-1_Elettromagnetismo.pdf" style="text-decoration:none;color:gray;"> Elettromagnetismo 1 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/3-2_Elettromagnetismo.pdf" style="text-decoration:none;color:gray;"> Elettromagnetismo 2 </a></li>
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/3-3_Elettromagnetismo.pdf" style="text-decoration:none;color:gray;"> Elettromagnetismo 3 </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; padding-bottom:0px; margin-bottom:10px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;"> Collezione di esercizi </p>
+    <p> Questa sezion contiene delle collezioni di esercizi sugli argomenti del primo e secondo modulo del corso.</p>
+    <div class="w3-row" style="max-width:700px;margin-left:auto;margin-right:auto;margin-top:0px;padding:0px;">
+        <div class="w3-half" style="text-align:left; color:gray; link-color:gray; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; font-weight:lighter;">
+            <ul style="list-style-type:disc; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:6px;">
+                <li style="font-size:100%;"><a class="link" href="https://www.qdab.org/uploads/4/1/8/0/41800633/esercizi_meccanica.pdf" style="text-decoration:none;color:gray;"> Primo modulo (meccanica) </a></li>
+            </ul>
+        </div>
+        <div class="w3-half" style="text-align:left; color:gray; link-color:gray; padding-top:0px; margin-top:0px; font-weight:lighter;">
+            <ul style="list-style-type:disc; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px;">
+                <li style="font-size:100%;"><a class="link" href="../Files/resources/Fisica_esercizi.pdf" style="text-decoration:none;color:gray;"> Secondo modulo (fluidi, termodinamica, elettromagnetismo) </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<div class="centerdiv" style="padding-left:50px;padding-right:50px;margin-bottom:-20px;margin-top:20px;padding-bottom:0px;">
+    <hr class="separator1" style="max-width:900px;">
+</div>
+<div style="font-size:106%; padding-left:50px; padding-right:50px; padding-bottom:0px; margin-bottom:10px; text-align:justify;max-width:1000px;margin-left:auto;margin-right:auto;">
+    <p style="font-weight:bold; font-size:120%; margin-bottom:-10px;"> Testi d'esame </p>
+    <p> Questa sezione contiene i testi d'esame (e le relative soluzioni) degli appelli dell'a.a. 2018/2019</p>
+    <div class="w3-row" style="max-width:700px;margin-left:auto;margin-right:auto;margin-top:0px;padding:0px;">
+        <div class="w3-third" style="color:black; link-color:gray; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; font-weight:lighter;">
+            <ul style="text-align:center; list-style-type:none; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:6px;">
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 6/2/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-02-06.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;margin-bottom:18px;"><a class="link" href="../Files/resources/Esame_2019-02-06_con-Soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+                
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 20/2/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-02-20.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;padding-bottom:13px;"><a class="link" href="../Files/resources/Esame_2019-02-20_Soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+            </ul>
+        </div>
+        <div class="w3-third" style="color:black; link-color:gray; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; font-weight:lighter;">
+            <ul style="list-style-type:none; text-align:center; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:6px;">
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 17/4/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-04-17.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;margin-bottom:18px;"><a class="link" href="../Files/resources/Esame_2019-04-17_Soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+                
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 26/6/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-06-26.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;padding-bottom:13px;"><a class="link" href="../Files/resources/Esame_2019-06-26_Soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+            </ul>
+        </div>
+        <div class="w3-third" style="color:black; link-color:gray; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; font-weight:lighter;">
+            <ul style="text-align:center; list-style-type:none; padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:6px;">
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 10/7/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-07-10.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;margin-bottom:18px;"><a class="link" href="../Files/resources/Esame_2019-07-10_soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+                
+                <li style="font-size:100%;padding-bottom:0px;margin-bottom:0px;"> 13/9/2019 </li>
+                <li style="font-size:100%;padding:0px;margin:0px;"><a class="link" href="../Files/resources/Esame_2019-09-13.pdf" style="text-decoration:none;color:gray;"> Esame </a></li>
+                <li style="font-size:100%;padding:0px;margin:0px;padding-bottom:13px;"><a class="link" href="../Files/resources/Esame_2019-09-13_soluzioni.pdf" style="text-decoration:none;color:gray;"> Esame + Soluzioni </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br style="clear:both;"/>
+
+<p style="width=100%;background-color:rgb(245,245,245);height:70px;margin:0px;margin-top:20px; padding-top:40px;padding-left:20px;text-align:bottom;color:gray;"> <i style="font-size:80%;">INFN privacy policy <a href="http://theory.fi.infn.it/Privacy_INFN.html" style="text-decoration:underline;color:gray;" target="_blank">information</a></i></p>
+</body>
+</html>
